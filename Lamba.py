@@ -13,3 +13,12 @@ print(mp)
 red =reduce(lambda a,b:a+b,mp)
 
 print (red)
+
+#Filter the list based on filter condition
+
+fil=list(filter(lambda a:a%2==0,n))
+print(fil)
+
+week=["sat", "Mon", "sat"]
+ch=list(filter(lambda l:l=="sat",week))
+print(ch)
